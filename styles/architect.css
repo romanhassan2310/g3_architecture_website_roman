@@ -251,6 +251,23 @@ main > section{
 }
 
 
+/*copy right related styles*/
+
+.bg-light1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+    padding-right: 20px;
+    background-color: rgba(255, 144, 14, 0.1) ;
+}
+
+
 
 
 /*responsive media query*/
@@ -259,7 +276,8 @@ main > section{
     .navbar, 
     .nav-links,
     .teams,
-    .features
+    .features,
+    .bg-light1
     {
         flex-direction: column;
     }
